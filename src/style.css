@@ -115,6 +115,10 @@ input[type="submit"]:hover {
   color: #00bbf0;
 }
 
+.credit {
+  margin-left: 50px;
+}
+
 #current-temp {
   font-family: "Poppins", sans-serif;
   font-size: 80px;
