@@ -1,0 +1,128 @@
+.container {
+  margin: 50px;
+  border: #005792 solid 10px;
+  border-radius: 30px;
+  background: hsl(193, 83%, 95%);
+}
+h1 {
+  color: #00bbf0;
+  font-size: 70px;
+  font-weight: 8900px;
+  margin: 35px;
+  font-family: "Poppins", sans-serif;
+}
+form {
+  margin: 35px;
+  font-size: 22px;
+}
+
+input[type="submit"] {
+  background: #00bbf0;
+  border: #00bbf0 solid 2px;
+  border-radius: 30px;
+  padding: 7px 15px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  transition: all 30ms ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background: transparent;
+  color: #00bbf0;
+  border: #00bbf0 solid 2px;
+}
+
+#current-location-button {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-color: #00bbf0;
+  border: #00bbf0 solid 2px;
+  border-radius: 30px;
+  padding: 7px 15px;
+  transition: all 30ms ease-in-out;
+  margin-top: 35px;
+}
+
+#current-location-button:hover {
+  background: transparent;
+  color: #00bbf0;
+  border: #00bbf0 solid 2px;
+}
+
+.current-data {
+  text-align: center;
+  margin: 20px 20px 0;
+  font-family: "Anek Telugu", sans-serif;
+}
+.current-date {
+  margin: 30px 20px;
+  text-align: left;
+  font-size: 40px;
+  color: #005792;
+}
+.current-icon {
+  font-size: 80px;
+}
+.current-temp-display {
+  text-align: center;
+  border: #00bbf0 solid 4px;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: rgb(79, 188, 240, 0.3);
+  margin: 10px 20px;
+}
+.water-statistics {
+  font-family: "Anek Telugu", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: #00204a;
+}
+.week-forcast {
+  font-family: "Anek Telugu", sans-serif;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.future-icon {
+  font-size: 30px;
+  margin: 5px auto 15px;
+}
+.future-temp {
+  font-size: 22px;
+  color: #00bbf0;
+}
+.future-name {
+  font-size: 24px;
+  color: #005792;
+}
+.future-date {
+  font-size: 15px;
+  color: #005792;
+}
+.sun-icon {
+  color: #fdb44b;
+}
+.cloud-icon {
+  color: #a2a8d3;
+}
+
+.units {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #00bbf0;
+}
+
+#current-temp {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  color: #00bbf0;
+}
+
+#celsius:hover,
+#fahrenheit:hover {
+  color: #005792;
+}
